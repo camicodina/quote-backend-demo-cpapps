@@ -7,7 +7,7 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.com/wtistang/quote-backend
+      value: https://github.com/camicodina/quote-backend-demo-cpapps
 ---
 apiVersion: tekton.dev/vlalphal
 kind: PipelineResource
@@ -17,4 +17,4 @@ spec:
   type: image
   params:
     - name: url
-      value: image-registry.openshift-image-registry.svc:5000/kabanero/quote-backend:tkn
+      value: image-registry.openshift-image-registry.svc:5000/demo-quote-backend/quote-backend:tkn
